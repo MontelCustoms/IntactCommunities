@@ -1,0 +1,37 @@
+html,
+body { height: 100%; }
+#cover { background: #222 url('img/intact2.png') center center no-repeat;
+	background-size: contain; 
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+#cover-caption { width: 100%;}
+img { max-width: 78%; max-height: 78%; padding-left: 22%} 	
+.section-content { padding: 5rem 0; }
+#about {background: url('img/cams.jpg') center center no-repeat;
+background-size: cover;}
+.about-text { background: rgba(0,0,0,0.8);
+color: white;
+padding: 1.875rem; }
+#footer-main { 
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	text-align: center;
+	
+}
+.bg-blue {
+  background-color: #035b96 !important;
+}
+
+.text-liney {
+  color: #fff !important; text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
